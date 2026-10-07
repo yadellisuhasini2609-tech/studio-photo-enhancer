@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Photo Enhancer</title>
+    <meta
+      name="description"
+      content="Professional photo enhancement studio website for editing, resizing, and passport sheet creation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav">
+          <div class="brand">
+            <div class="brand-mark">S</div>
+            <div>
+              <span class="brand-name">Studio Photo Enhancer</span>
+            </div>
+          </div>
+
+          <nav class="nav-links" aria-label="Main navigation">
+            <a href="#features">Features</a>
+            <a href="#editor">Editor</a>
+            <a href="#workflow">Workflow</a>
+            <a href="#pricing">Pricing</a>
+          </nav>
+
+          <button class="btn btn-primary">Book Demo</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">Professional studio workflow</span>
+              <h1>Enhance portraits, resize for print, and export passport-ready sheets.</h1>
+              <p>
+                Built for studio operators who need polished headshots, quick batch edits,
+                and print-ready output in minutes instead of hours.
+              </p>
+
+              <div class="hero-actions">
+                <button class="btn btn-primary">Upload Photos</button>
+                <button class="btn btn-secondary">View Features</button>
+              </div>
+
+              <div class="stats">
+                <div>
+                  <strong>5000+</strong>
+                  <span>images processed</span>
+                </div>
+                <div>
+                  <strong>4.9/5</strong>
+                  <span>operator rating</span>
+                </div>
+                <div>
+                  <strong>2 mins</strong>
+                  <span>average export time</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual" aria-label="Photo enhancement showcase">
+              <div class="card-panel large-panel">
+                <div class="panel-header">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+
+                <div class="preview-window">
+                  <div class="before-after">
+                    <div class="photo-stack photo-original">
+                      <div class="badge">Original</div>
+                    </div>
+                    <div class="photo-stack photo-enhanced">
+                      <div class="badge accent">Enhanced</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="features section-spacing">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Why teams choose us</span>
+              <h2>Everything your studio needs to produce polished results.</h2>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l7 3.5v6.8c0 4.2-2.8 8.1-7 10.2-4.2-2.1-7-6-7-10.2V6l7-3.5zm0 4.1l-4.5 2.3v3.8c0 2.8 1.8 5.4 4.5 7.1 2.7-1.7 4.5-4.3 4.5-7.1V9l-4.5-2.4zm1.8 2.7l-1.8 3.2-1.3-1.5-1.3 1.2 2.3 2.6 3.2-5.5-1.1-.9z"/></svg>
+                </div>
+                <h3>AI Enhancement</h3>
+                <p>Automatically balance skin tones, sharpen eyes, and remove subtle imperfections.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v10h10V7H7zm2 2h6v2H9V9zm0 4h6v2H9v-2z"/></svg>
+                </div>
+                <h3>Resize Presets</h3>
+                <p>Match dimensions for passport, ID, visa, and print-ready studio deliverables.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11zm3.5 2h8v8h-8v-8zm1.5 1.5v5h5v-5h-5z"/></svg>
+                </div>
+                <h3>Passport Sheets</h3>
+                <p>Generate multi-photo passport templates with consistent spacing and export sizing.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 2h2v4h-2V2zm8.7 2.3l1.4 1.4-2.8 2.8-1.4-1.4 2.8-2.8zM4.3 4.3l2.8 2.8-1.4 1.4L2.9 5.7l1.4-1.4zm15.7 8.7h4v2h-4v-2zm-18 0h4v2H2v-2zm13.7 5.2l1.4 1.4-2.8 2.8-1.4-1.4 2.8-2.8zm-11.4 0l2.8 2.8-1.4 1.4-2.8-2.8 1.4-1.4zm6.7-2.2a5 5 0 105 0z"/></svg>
+                </div>
+                <h3>Batch Workflow</h3>
+                <p>Apply identical color correction and export settings across multiple portraits.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="editor" class="editor section-spacing">
+          <div class="container editor-layout">
+            <div class="editor-panel">
+              <div class="section-heading left">
+                <span class="eyebrow">Live studio editor</span>
+                <h2>Fine-tune every shot before export.</h2>
+              </div>
+
+              <div class="upload-zone" id="uploadZone">
+                <input type="file" id="photoInput" accept="image/*" hidden />
+                <div class="upload-copy">
+                  <div class="upload-icon">⇪</div>
+                  <p>Drag and drop your photo here</p>
+                  <span>or click to upload</span>
+                </div>
+              </div>
+
+              <div class="preview-card hidden" id="imagePreviewWrap">
+                <img id="previewImage" alt="Uploaded portrait preview" />
+              </div>
+            </div>
+
+            <div class="controls-panel">
+              <div class="preset-row">
+                <button class="preset active" data-preset="natural">Natural</button>
+                <button class="preset" data-preset="studio">Studio</button>
+                <button class="preset" data-preset="passport">Passport</button>
+              </div>
+
+              <div class="slider-group">
+                <label>
+                  <span>Brightness</span>
+                  <input id="brightness" type="range" min="70" max="150" value="105" />
+                </label>
+                <label>
+                  <span>Contrast</span>
+                  <input id="contrast" type="range" min="70" max="180" value="120" />
+                </label>
+                <label>
+                  <span>Saturation</span>
+                  <input id="saturation" type="range" min="60" max="160" value="105" />
+                </label>
+                <label>
+                  <span>Sharpen</span>
+                  <input id="sharpness" type="range" min="0" max="100" value="35" />
+                </label>
+              </div>
+
+              <div class="quick-actions">
+                <button class="btn btn-primary" id="enhanceBtn">Enhance Photo</button>
+                <button class="btn btn-secondary" id="resetBtn">Reset</button>
+              </div>
+
+              <div class="mini-summary">
+                <div>
+                  <span>Format</span>
+                  <strong>2x2 passport</strong>
+                </div>
+                <div>
+                  <span>Export</span>
+                  <strong>300 DPI</strong>
+                </div>
+                <div>
+                  <span>Colour</span>
+                  <strong>Professional</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="workflow" class="workflow section-spacing">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Studio workflow</span>
+              <h2>From upload to print-ready output in three steps.</h2>
+            </div>
+
+            <div class="workflow-grid">
+              <div class="step-card">
+                <span class="step-num">01</span>
+                <h3>Upload portraits</h3>
+                <p>Drag in client headshots, passport images, or ID photos directly into the editor.</p>
+              </div>
+              <div class="step-card">
+                <span class="step-num">02</span>
+                <h3>Enhance and resize</h3>
+                <p>Apply presets, correct lighting, and export to required size for print or digital use.</p>
+              </div>
+              <div class="step-card">
+                <span class="step-num">03</span>
+                <h3>Print passport sheets</h3>
+                <p>Arrange multiple images into a final layout and generate studio-ready print files.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="showcase section-spacing">
+          <div class="container showcase-grid">
+            <div class="before-after-panel">
+              <div class="label-row">
+                <span>Before</span>
+                <span>After</span>
+              </div>
+              <div class="split-view">
+                <div class="portrait portrait-before"></div>
+                <div class="portrait portrait-after"></div>
+              </div>
+            </div>
+
+            <div class="sheet-panel">
+              <div class="section-heading left">
+                <span class="eyebrow">Export layout</span>
+                <h2>Passport sheet generation, ready for print.</h2>
+              </div>
+
+              <div class="passport-sheet">
+                <div class="page-grid">
+                  <div class="passport-image one"></div>
+                  <div class="passport-image two"></div>
+                  <div class="passport-image three"></div>
+                  <div class="passport-image four"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing" class="cta section-spacing">
+          <div class="container cta-box">
+            <div>
+              <span class="eyebrow">Built for studios</span>
+              <h2>Turn client photos into premium studio output.</h2>
+            </div>
+            <button class="btn btn-primary">Start free trial</button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-row">
+          <span>© 2026 Studio Photo Enhancer</span>
+          <div class="footer-links">
+            <a href="#features">Features</a>
+            <a href="#editor">Editor</a>
+            <a href="#workflow">Workflow</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
